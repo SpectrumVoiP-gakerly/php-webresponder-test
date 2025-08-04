@@ -14,7 +14,7 @@ $routes = [
 ];
 
 // Fallback extension if no match
-$defaultTarget = '2049';
+$defaultTarget = '19728240064';
 
 // Determine where to forward the call
 $target = $routes[$caller] ?? $defaultTarget;
