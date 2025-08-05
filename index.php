@@ -14,7 +14,7 @@ $routes = [
 ];
 
 // Fallback extension if no match
-$defaultTarget = '14694292500';
+$defaultTarget = 'sip:14694292500@*';
 
 // Determine where to forward the call
 $target = $routes[$caller] ?? $defaultTarget;
