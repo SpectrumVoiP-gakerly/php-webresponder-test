@@ -24,6 +24,6 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 ?>
 <Response>
     <Say>Hello, please hold while we forward your call.</Say>
-    <Forward ByCaller="yes"><?= htmlspecialchars($target) ?></Forward>
+    <Forward><?= htmlspecialchars($target) ?></Forward>
 </Response>
 
