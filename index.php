@@ -8,7 +8,7 @@ $caller = $_GET['NmsAni'] ?? '';
 // Define routing rules based on ANI
 $routes = [
     '2010' => 'sip:19728240064@*',
-    '+19728240064' => '2010',
+    '+19728240064' => '8900',
     '2030' => '2044',
     // Add more as needed
 ];
